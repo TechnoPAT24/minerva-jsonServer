@@ -1,0 +1,795 @@
+{
+  "discounts": [
+    {
+      "id": "1",
+      "name": "Senior Discount",
+      "type": "%",
+      "value": 20,
+      "expiration": ""
+    },
+    {
+      "id": "2",
+      "name": "July Promo Discount",
+      "type": "%",
+      "value": 10,
+      "expiration": "2023-07-31"
+    }
+  ],
+  "voucher": [
+    {
+      "id": "1",
+      "code": "V0001",
+      "type": "Php",
+      "value": 200,
+      "expiration": "2023-07-31"
+    },
+    {
+      "id": "2",
+      "code": "V0002",
+      "type": "Php",
+      "value": 300,
+      "expiration": "2023-07-25"
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "Package"
+    },
+    {
+      "id": "2",
+      "name": "Services"
+    },
+    {
+      "id": "3",
+      "name": "Packages"
+    }
+  ],
+  "subCategory": [
+    {
+      "id": "1",
+      "name": "Tire"
+    },
+    {
+      "id": "2",
+      "name": "Oil"
+    },
+    {
+      "id": "3",
+      "name": "Break Pad"
+    },
+    {
+      "id": "4",
+      "name": "Tie Rod"
+    },
+    {
+      "id": "5",
+      "name": "Rack End"
+    },
+    {
+      "id": "6",
+      "name": "Ball Joint"
+    },        
+    {
+      "id": "7",
+      "name": "Tire/Wheel"
+    },
+    {
+      "id": "8",
+      "name": "Oil"
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "category": "Product",
+      "subCategory": "Tire",
+      "brand": "Continental",
+      "description": "Size 20 x 18",
+      "sold": 0,
+      "photo": "assets/images/continental-tire-1.png",
+      "price": 4000,
+      "remainingStocks": 15
+    },
+    {
+      "id": "2",
+      "category": "Product",
+      "subCategory": "Tire",
+      "brand": "Michelin",
+      "description": "Size 18 x 18",
+      "sold": 0,
+      "photo": "assets/images/michelin-tire-2.png",
+      "price": 3000,
+      "remainingStocks": 25
+    },
+    {
+      "id": "3",
+      "category": "Product",
+      "subCategory": "Tire",
+      "brand": "Pirelli",
+      "description": "Size 15 x 10.5",
+      "sold": 0,
+      "photo": "assets/images/perilli-tire-1.jpg",
+      "price": 1500,
+      "remainingStocks": 12
+    },
+    {
+      "id": "4",
+      "category": "Product",
+      "subCategory": "Tire",
+      "brand": "Bridgestone",
+      "description": "Size 17 x 8",
+      "sold": 0,
+      "photo": "assets/images/bridgestone-tire-1.jpg",
+      "price": 2200,
+      "remainingStocks": 9
+    },
+    {
+      "id": "5",
+      "category": "Product",
+      "subCategory": "Tire",
+      "brand": "Toyo Tires",
+      "description": "Size 14 x 14",
+      "sold": 0,
+      "photo": "assets/images/toyo-tire-1.png",
+      "price": 2800,
+      "remainingStocks": 19
+    },
+    {
+      "id": "6",
+      "category": "Product",
+      "subCategory": "Tire",
+      "brand": "Falken",
+      "description": "Size 14 x 14",
+      "sold": 0,
+      "photo": "assets/images/falken-tire-1.jpg",
+      "price": 1900,
+      "remainingStocks": 20
+    },
+    {
+      "id": "7",
+      "category": "Product",
+      "subCategory": "Tire",
+      "brand": "Kumho Tires",
+      "description": "Size 17 x 10",
+      "sold": 0,
+      "photo": "assets/images/kumho-tire-1.jpg",
+      "price": 3300,
+      "remainingStocks": 1
+    },
+    {
+      "id": "8",
+      "category": "Product",
+      "subCategory": "Tire",
+      "brand": "Dunlop Tires",
+      "description": "Size 16 x 16",
+      "sold": 0,
+      "photo": "assets/images/dunlop-tire-1.jpg",
+      "price": 3800,
+      "remainingStocks": 0
+    },
+    {
+      "id": "9",
+      "category": "Product",
+      "subCategory": "Tire",
+      "brand": "Yokohama",
+      "description": "Size 20 x 20",
+      "sold": 0,
+      "photo": "assets/images/yokohama-tire-1.png",
+      "price": 2000,
+      "remainingStocks": 23
+    },
+    {
+      "id": "10",
+      "category": "Product",
+      "subCategory": "Tire",
+      "brand": "Nexen",
+      "description": "Size 19 x 19",
+      "sold": 0,
+      "photo": "assets/images/yokohama-tire-1.png",
+      "price": 2500,
+      "remainingStocks": 23
+    },
+    {
+      "id": "11",
+      "category": "Product",
+      "subCategory": "Tire",
+      "brand": "Quick",
+      "description": "Size 19 x 19",
+      "sold": 0,
+      "photo": "assets/images/yokohama-tire-1.png",
+      "price": 2500,
+      "remainingStocks": 23
+    },
+    {
+      "id": "11",
+      "category": "Product",
+      "subCategory": "Oil",
+      "brand": "Caltex",
+      "description": "Size 19 x 19",
+      "sold": 0,
+      "photo": "assets/images/oil/engine-oil.png",
+      "price": 2500,
+      "remainingStocks": 23
+    },
+    {
+      "id": "12",
+      "category": "Services",
+      "subCategory": "Tire/Wheel",
+      "brand": "Tire Mounting",
+      "price": 2000,
+      "photo": "assets/images/tire-mounting.jpg",
+      "description": "Process of putting tires onto the wheels or rims of a car",
+      "sold": 0
+    },
+    {
+      "id": "13",
+      "category": "Services",
+      "brand": "Wheel Balancing",
+      "price": 200,
+      "photo": "assets/images/wheel-balancing.jpg",
+      "description": "Proper centered the wheel by using technology",
+      "sold": 0
+    },
+    {
+      "id": "14",
+      "category": "Services",
+      "brand": "Toe / Camber / Caster",
+      "price": 200,
+      "photo": "assets/images/toe-camber-caster.jpg",
+      "description": "The three major alignment parameters on a car",
+      "sold": 0
+    },
+    {
+      "id": "15",
+      "category": "Services",
+      "brand": "Free Wheel Alignment Check Up",
+      "price": 0,
+      "photo": "assets/images/wheel-alignment-check-up.jpg",
+      "description": "Checking the car wheel alignment",
+      "sold": 0
+    },
+    {
+      "id": "16",
+      "category": "Services",
+      "brand": "Tune Up",
+      "price": 200,
+      "photo": "assets/images/tune-up.jpg",
+      "description": "A form of preventative maintenance or service to your vehicle",
+      "sold": 0
+    },
+    {
+      "id": "17",
+      "category": "Services",
+      "subCategory": "Oil",
+      "brand": "Change Oil",
+      "price": 200,
+      "photo": "assets/images/change-oil.jpg",
+      "description": "removing the old engine oil and filter and replacing them with new ones",
+      "sold": 0
+    },
+    {
+      "id": "18",
+      "category": "Product",
+      "subCategory": "Oil",
+      "brand": "Havoline",
+      "price": 280,
+      "photo": "assets/images/oil/havoline-oil.png",
+      "description": "10W-40 1L",
+      "sold": 0,
+      "remainingStocks": 23
+    },
+    {
+      "id": "19",
+      "category": "Product",
+      "subCategory": "Oil",
+      "brand": "RS8",
+      "price": 290,
+      "photo": "assets/images/oil/rs8-oil.png",
+      "description": "10W-40 800ml",
+      "sold": 0,
+      "remainingStocks": 50
+    },
+    {
+      "id": "20",
+      "category": "Product",
+      "subCategory": "Oil",
+      "brand": "Yamalube",
+      "price": 293,
+      "photo": "assets/images/oil/yamalube-oil.png",
+      "description": "10W-40 800ml",
+      "sold": 0,
+      "remainingStocks": 50
+    },
+    {
+      "id": "21",
+      "category": "Product",
+      "subCategory": "Oil",
+      "brand": "Castrol",
+      "price": 270,
+      "photo": "assets/images/oil/yamalube-oil.png",
+      "description": "5W-30 1L",
+      "sold": 0,
+      "remainingStocks": 50
+    },
+    {
+      "id": "22",
+      "category": "Product",
+      "subCategory": "Break Pad",
+      "brand": "EBC",
+      "price": 320,
+      "photo": "assets/images/breakpads/ebc-break.png",
+      "description": "EBC New Extra Duty PLUS Light Truck, Jeep & SUV",
+      "sold": 0,
+      "remainingStocks": 50
+    },
+    {
+      "id": "23",
+      "category": "Product",
+      "subCategory": "Break Pad",
+      "brand": "Brembo",
+      "price": 390,
+      "photo": "assets/images/breakpads/brembo-break.png",
+      "description": "Brembo brake pads represent the best in terms of performance, comfort and durability.",
+      "sold": 0,
+      "remainingStocks": 50
+    },
+    {
+      "id": "24",
+      "category": "Product",
+      "subCategory": "Break Pad",
+      "brand": "Wagner",
+      "price": 380,
+      "photo": "assets/images/breakpads/wagner-break.png",
+      "description": "Premium Braking Performance for Pickups, SUVs and CUVs.",
+      "sold": 0,
+      "remainingStocks": 30
+    },
+    {
+      "id": "25",
+      "category": "Product",
+      "subCategory": "Break Pad",
+      "brand": "Ferodo",
+      "price": 350,
+      "photo": "assets/images/breakpads/ferodo-break.png",
+      "description": "POWERFUL BRAKING FOR ELECTRIC AND HYBRID CARS",
+      "sold": 0,
+      "remainingStocks": 45
+    },
+    {
+      "id": "26",
+      "category": "Product",
+      "subCategory": "Break Pad",
+      "brand": "Borch",
+      "price": 330,
+      "photo": "assets/images/breakpads/borch-break.png",
+      "description": "Bosch BS589 Blue Drum Brake Shoe Set",
+      "sold": 0,
+      "remainingStocks": 60
+    },
+    {
+      "id": "27",
+      "category": "Product",
+      "subCategory": "Tie Rod",
+      "brand": "Fat Dragon GOLF Tie Rod End",
+      "price": 970,
+      "photo": "assets/images/tierods/fatdragon-tierod.png",
+      "description": "For Club Car DS G&E 1976-2008 Driver and Passenger Side, 7539, 7540",
+      "sold": 0,
+      "remainingStocks": 80
+    },
+    {
+      "id": "28",
+      "category": "Product",
+      "subCategory": "Tie Rod",
+      "brand": "Moog ES3488 Steering Tie Rod End",
+      "price": 940,
+      "photo": "assets/images/tierods/moog-tierod.png",
+      "description": "Tie Rod End Inner Chevy/GMC/Cadillac",
+      "sold": 0,
+      "remainingStocks": 70
+    },
+    {
+      "id": "29",
+      "category": "Product",
+      "subCategory": "Tie Rod",
+      "brand": "Detroit Axle",
+      "price": 960,
+      "photo": "assets/images/tierods/detroitaxle-tierod.png",
+      "description": "WD Front Outer Tie Rods",
+      "sold": 0,
+      "remainingStocks": 40
+    },
+    {
+      "id": "30",
+      "category": "Product",
+      "subCategory": "Tie Rod",
+      "brand": "ACDelco",
+      "price": 960,
+      "photo": "assets/images/tierods/acdelco-tierod.png",
+      "description": "Advantage 46A0707A Outer Steering Tie Rod End , Black",
+      "sold": 0,
+      "remainingStocks": 40
+    },
+    {
+      "id": "31",
+      "category": "Product",
+      "subCategory": "Tie Rod",
+      "brand": "Titaniarm",
+      "price": 920,
+      "photo": "assets/images/tierods/titaniarm-tierod.png",
+      "description": "Front Steering & Suspension Kit Control Arms Ball Joints",
+      "sold": 0,
+      "remainingStocks": 30
+    },
+    {
+      "id": "32",
+      "category": "Product",
+      "subCategory": "Rack End",
+      "brand": "Nissan Juke F15",
+      "price": 4500,
+      "photo": "assets/images/rackend/nissanjuke-rackend.png",
+      "description": "Please note product sold in a set of 2 pcs.",
+      "sold": 0,
+      "remainingStocks": 30
+    },
+    {
+      "id": "33",
+      "category": "Product",
+      "subCategory": "Rack End",
+      "brand": "Toyota Lexus",
+      "price": 4900,
+      "photo": "assets/images/rackend/toyotalexus-rackend.png",
+      "description": "Please note product sold in a set of 2 pcs.",
+      "sold": 0,
+      "remainingStocks": 40
+    },
+    {
+      "id": "34",
+      "category": "Product",
+      "subCategory": "Rack End",
+      "brand": "Toyota RAV4",
+      "price": 4960,
+      "photo": "assets/images/rackend/toyotarav4-rackend.png",
+      "description": "Please note product sold in a set of 2 pcs.",
+      "sold": 0,
+      "remainingStocks": 40
+    },
+    {
+      "id": "35",
+      "category": "Product",
+      "subCategory": "Rack End",
+      "brand": "Isuzu Dmax",
+      "price": 4460,
+      "photo": "assets/images/rackend/isuzudmax-rackend.png",
+      "description": "Please note product sold in a set of 2 pcs.",
+      "sold": 0,
+      "remainingStocks": 20
+    },
+    {
+      "id": "36",
+      "category": "Product",
+      "subCategory": "Rack End",
+      "brand": "Honda Civic (Sedan)",
+      "price": 4570,
+      "photo": "assets/images/rackend/hondacivic-rackend.png",
+      "description": "Please note product sold in a set of 2 pcs.",
+      "sold": 0,
+      "remainingStocks": 25
+    },
+    {
+      "id": "37",
+      "category": "Product",
+      "subCategory": "Ball Joint",
+      "brand": "Moog K80026",
+      "price": 2070,
+      "photo": "assets/images/balljoints/moog-balljoint.png",
+      "description": "Includes 1 ball joint in the box",
+      "sold": 0,
+      "remainingStocks": 35
+    },
+    {
+      "id": "38",
+      "category": "Product",
+      "subCategory": "Ball Joint",
+      "brand": "TeraFlex",
+      "price": 2770,
+      "photo": "assets/images/balljoints/teraflex-balljoint.png",
+      "description": "Includes 4 ball joints in the box",
+      "sold": 0,
+      "remainingStocks": 55
+    },
+    {
+      "id": "39",
+      "category": "Product",
+      "subCategory": "Ball Joint",
+      "brand": "Detroit Axle",
+      "price": 2770,
+      "photo": "assets/images/balljoints/dexroitaxle-balljoint.png",
+      "description": "Includes 4 ball joints in the box",
+      "sold": 0,
+      "remainingStocks": 35
+    },
+    {
+      "id": "40",
+      "category": "Product",
+      "subCategory": "Ball Joint",
+      "brand": "Rough Country",
+      "price": 2270,
+      "photo": "assets/images/balljoints/roughcountry-balljoint.png",
+      "description": "Designed for Jeep Wrangler JK",
+      "sold": 0,
+      "remainingStocks": 35
+    },
+    {
+      "id": "41",
+      "category": "Product",
+      "subCategory": "Ball Joint",
+      "brand": "ACDelco",
+      "price": 2390,
+      "photo": "assets/images/balljoints/acdelco-balljoint.png",
+      "description": "Manufactured at ISO 9001-certified facilities",
+      "sold": 0,
+      "remainingStocks": 30
+    },
+    {
+      "id": "42",
+      "category": "Services",
+      "subCategory": "Tire/Wheel",
+      "brand": "Flat Tire Repair",
+      "price": 180,
+      "photo": "assets/images/tire-wheel/tire-repair.png",
+      "description": "fix tire flat using tire plug kit",
+      "quantity": 1
+    },
+    {
+      "id": "43",
+      "category": "Services",
+      "subCategory": "Tire/Wheel",
+      "brand": "Tire Replacement",
+      "price": 520,
+      "photo": "assets/images/tire-wheel/tire-replacement.png",
+      "description": "Replacing  Tires of 4 wheel vehicle",
+      "quantity": 1
+    },
+    {
+      "id": "44",
+      "category": "Services",
+      "subCategory": "Tire/Wheel",
+      "brand": "Change Rim",
+      "price": 55000,
+      "photo": "assets/images/tire-wheel/tire-rimset.png",
+      "description": "Replace Stock Rim Set",
+      "quantity": 1
+    },
+    {
+      "id": "45",
+      "category": "Services",
+      "subCategory": "Tire/Wheel",
+      "brand": "Tire Wax",
+      "price": 150,
+      "photo": "assets/images/tire-wheel/tire-wax.png",
+      "description": "Tire waxing",
+      "quantity": 1
+    },
+    {
+      "id": "46",
+      "category": "Services",
+      "subCategory": "Tire/Wheel",
+      "brand": "Rim Paint",
+      "price": 750,
+      "photo": "assets/images/tire-wheel/rim-paint.png",
+      "description": "Rim painting",
+      "quantity": 1
+    },
+    {
+      "id": "47",
+      "category": "Services",
+      "subCategory": "Oil",
+      "brand": "Gear Oil",
+      "price": 450,
+      "photo": "assets/images/oil/gear-oil.png",
+      "description": "Change Gear Oil",
+      "quantity": 1
+    }
+  ],
+  "packages": [
+    {
+      "id": "1",
+      "category": "Packages",
+      "name": "Paired Tire Replacement Package",
+      "description": "Replacing 2 tires of a 4 wheeld vehicle and apply tire balancing to other tires",
+      "price": 5600,
+      "photo": "assets/images/bucket/10pcs-bucket-treat.jpg",
+      "items": [
+        {
+          "id": "1",
+          "category": "Service",
+          "name": "Tire Mounting",
+          "price": 2000,
+          "photo": "assets/images/tire-mounting.jpg",
+          "description": "Process of putting tires onto the wheels or rims of a car",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "category": "Service",
+          "name": "Wheel Balancing",
+          "price": 200,
+          "photo": "assets/images/wheel-balancing.jpg",
+          "description": "Proper centered the wheel by using technology",
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "category": "Product",
+          "subCategory": "Tire",
+          "name": "Toyo Tires",
+          "description": "Size 14 x 14",
+          "sold": 0,
+          "photo": "assets/images/toyo-tire-1.png",
+          "price": 2800,
+          "remainingStocks": 19,
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "sales": [],
+  "membership": [
+    {
+      "id": "1",
+      "memberId": 11223344,
+      "firstname": "JJ",
+      "middlename": "",
+      "lastname": "Alcuran",
+      "email": "jj.alcuran@gmail.com",
+      "points": 125.05000000000018,
+      "claimHistory": []
+    }
+  ],
+  "staff": [
+    {
+      "id": "1",
+      "employeeId": "110011",
+      "photo": "assets/images/profile-0.jpg",
+      "firstname": "Jun-Jun",
+      "middlename": "",
+      "lastname": "Alcuran",
+      "position": "supervisor",
+      "nickname": "JJ",
+      "gender": "Male",
+      "age": "30",
+      "birthdate": "September 1, 1991",
+      "address": "Sitio Central Brgy. Bulakin Tiaong Quezon",
+      "religion": "Iglesia ni Cristo",
+      "civilStatus": "Single",
+      "citizenship": "Filipino",
+      "contactNo": "09123456789",
+      "email": "jj.alcuran@gmail.com",
+      "password": "12345",
+      "logs": [],
+      "report": []
+    },
+    {
+      "id": "2",
+      "employeeId": "220022",
+      "photo": "assets/images/profile-1.jpg",
+      "firstname": "Iron",
+      "middlename": "D",
+      "lastname": "Man",
+      "position": "cashier",
+      "nickname": "Ironman",
+      "gender": "Male",
+      "age": "55",
+      "birthdate": "August 2, 1972",
+      "address": "Marvel Hideout New York City",
+      "religion": "Roman Catholic",
+      "civilStatus": "Married",
+      "citizenship": "American",
+      "contactNo": "09991191911",
+      "email": "ironman@gmail.com",
+      "password": "12345",
+      "logs": [
+        {
+          "type": "login",
+          "date": "2023-08-04",
+          "time": "10-23-24"
+        }
+      ],
+      "report": []
+    },
+    {
+      "id": "3",
+      "employeeId": "330033",
+      "photo": "assets/images/profile-2.jpg",
+      "firstname": "Spider",
+      "middlename": "T",
+      "lastname": "Man",
+      "position": "cashier",
+      "nickname": "Gamgamboy",
+      "gender": "Male",
+      "age": "19",
+      "birthdate": "December 2, 2013",
+      "address": "Marvel Hideout Neighborhood",
+      "religion": "Gineriodan",
+      "civilStatus": "Single",
+      "citizenship": "American",
+      "contactNo": "0942121985",
+      "email": "spiderman@gmail.com",
+      "password": "12345",
+      "logs": [
+        {
+          "type": "login",
+          "date": "2023-08-09",
+          "time": "09-12-18"
+        }
+      ],
+      "report": []
+    },
+    {
+      "id": "4",
+      "employeeId": "440044",
+      "photo": "assets/images/profile-3.jpg",
+      "firstname": "Wendy",
+      "middlename": "F",
+      "lastname": "Paterson",
+      "position": "manager",
+      "nickname": "Wendy",
+      "gender": "Female",
+      "age": "18",
+      "birthdate": "January 30, 2005",
+      "address": "Marvel Hideout Neighborhood",
+      "religion": "Roman Catholic",
+      "civilStatus": "Single",
+      "citizenship": "European",
+      "contactNo": "0921567884",
+      "email": "wendy@yahoo.com",
+      "password": "12345",
+      "logs": [],
+      "report": []
+    }
+  ],
+  "cashdrawer": [
+    {
+      "id": 1,
+      "cashInDrawer": 2000,
+      "startingCash": 2000,
+      "cashSales": 0,
+      "cashAdded": 0,
+      "cashExpenses": 0,
+      "refunds": 0,
+      "discounts": 0,
+      "addedExpenseHistory": [],
+      "addedCasHistory": [],
+      "addedRefundHistory": []
+    }
+  ],
+  "pointsSystem": [
+    {
+      "id": 1,
+      "pointsGainValue": 100,
+      "pointsClaimValue": 50,
+      "pointsCashValue": 1
+    }
+  ],
+  "claimableItems": [
+    {
+      "id": 1,
+      "name": "Key Chain",
+      "requiredPoints": 100
+    },
+    {
+      "id": 2,
+      "name": "T-Shirt",
+      "requiredPoints": 500
+    },
+    {
+      "id": 3,
+      "name": "Mug",
+      "requiredPoints": 200
+    }
+  ],
+  "transactions": [],
+  "holdTransactions": []
+}
